@@ -1,0 +1,190 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": 
+    [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "bellStyle": "none",
+            "colorScheme": "Nord"
+        },
+        "list": 
+        [
+            {
+                "bellStyle": "audible",
+                "colorScheme": "Nord",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "font": 
+                {
+                    "face": "Cascadia Mono"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{7b94a762-73bc-5965-8fc3-a12ab9eeecee}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{f1934405-0775-5fe4-ada3-01e560d1799f}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{68fac745-cdfd-5eca-aa27-6e213e87012f}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{41977e7c-a971-5daa-ac1e-5f39174e0833}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "commandline": "%WINDIR%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy ByPass -NoExit -Command \"& 'C:\\Users\\S\\anaconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Users\\S\\anaconda3' \"",
+                "guid": "{eed49005-877d-5de2-94d5-5ce5e370f8c3}",
+                "icon": "C:\\Users\\S\\anaconda3\\Menu\\anaconda_powershell_prompt.ico",
+                "name": "Anaconda PowerShell Prompt (anaconda3)",
+                "startingDirectory": "C:\\Users\\S"
+            },
+            {
+                "commandline": "%WINDIR%\\System32\\cmd.exe \"/K\" C:\\Users\\S\\anaconda3\\Scripts\\activate.bat C:\\Users\\S\\anaconda3",
+                "guid": "{e78b37b4-0017-568b-9279-1abde5e14cde}",
+                "icon": "C:\\Users\\S\\anaconda3\\Menu\\anaconda_prompt.ico",
+                "name": "Anaconda Prompt (anaconda3)",
+                "startingDirectory": "C:\\Users\\S"
+            },
+            {
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
+            },
+            {
+                "guid": "{29f2d9af-c6fb-5211-b396-48ec42fe24f8}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2017",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{665f764c-1f5e-5031-89fc-748f7a5b5901}",
+                "hidden": false,
+                "name": "Micro Focus Visual COBOL 32-bit Command Prompt",
+                "source": "Micro Focus Visual COBOL"
+            },
+            {
+                "guid": "{7ccf8466-306c-55f3-bb37-411537f1aadc}",
+                "hidden": false,
+                "name": "Micro Focus Visual COBOL 64-bit Command Prompt",
+                "source": "Micro Focus Visual COBOL"
+            },
+            {
+                "guid": "{2500426d-3e4a-5bf3-a699-bdf5612c1f7e}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2017",
+                "source": "Windows.Terminal.VisualStudio"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#2E3440",
+            "black": "#3B4252",
+            "blue": "#81A1C1",
+            "brightBlack": "#4C566A",
+            "brightBlue": "#81A1C1",
+            "brightCyan": "#8FBCBB",
+            "brightGreen": "#A3BE8C",
+            "brightPurple": "#B48EAD",
+            "brightRed": "#BF616A",
+            "brightWhite": "#ECEFF4",
+            "brightYellow": "#EBCB8B",
+            "cursorColor": "#81A1C1",
+            "cyan": "#88C0D0",
+            "foreground": "#D8DEE9",
+            "green": "#A3BE8C",
+            "name": "Nord",
+            "purple": "#B48EAD",
+            "red": "#BF616A",
+            "selectionBackground": "#434C5E",
+            "white": "#E5E9F0",
+            "yellow": "#EBCB8B"
+        }
+    ],
+    "themes": []
+}
